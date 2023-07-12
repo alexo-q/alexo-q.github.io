@@ -31,7 +31,7 @@ async function main() {
     },
   });
  size: input.byteLength,
- usage : GPUBufferUsage.MAP_READ | GPUBufferUsage.COPY_DST
+ usage: GPUBufferUsage.MAP_READ | GPUBufferUsage.COPY_DST
 });
 const bindGroup = device.createBindGroup({
   {binding:0,resource:{buffer:workBuffer}}
